@@ -1,0 +1,39 @@
+company:
+  name: 广州云科电气设备有限公司
+  short_name: YKE 云科电气
+  tagline: 全球配电解决方案专家
+  positioning: 面向全球市场的配电设备与项目方案供应商
+  location: 中国广州白云区
+  overview:
+    - 云科电气聚焦电力电气设备研发生产、外贸出口与项目型配套交付。
+    - 当前重点服务中东、东南亚、非洲、拉美等基础设施与新能源需求增长较快的市场。
+    - 产品覆盖0.4kV至35kV，兼顾GB与IEC标准体系，并具备完整出口单据与项目支持能力。
+  strengths:
+    - 工作日1小时内响应询盘
+    - 从选型到清关全流程专人跟进
+    - 满足IEC与GB双重标准并坚持出厂全检
+    - 可针对高温、沙尘、高湿、高原等环境做适配定制
+  buyer_snapshot:
+    voltage_range: 0.4kV至35kV
+    certifications:
+      - CE
+      - CCC
+      - ISO 9001
+      - ISO 14001
+      - ISO 45001
+    moq: 单台起订，项目配套数量可灵活安排
+    lead_time: 常规30至45天，标准备货可压缩至25天左右
+    payment_terms:
+      - T/T
+      - L/C
+      - D/P
+    inspection:
+      - SGS
+      - BV
+      - Intertek
+    warranty: 标准质保18个月
+    after_sales_response: 48小时内完成责任判定并给出处理方案
+  contact_placeholder:
+    whatsapp: "+86-18620676850"
+    email: export@yunke-electric.com
+    website: www.yunke-electric.com

@@ -1,0 +1,257 @@
+{
+  "source_pdf": "云科电气设备公司简介.pdf",
+  "generated_at_utc": "2026-06-22T09:30:46.541636+00:00",
+  "selected_assets": [
+    {
+      "slug": "hero-cover",
+      "file": "content/assets-placeholders/selected/hero-cover.png",
+      "source_page": 1,
+      "label_en": "Hero cover placeholder",
+      "label_zh": "首页封面占位图",
+      "suggested_usage": [
+        "home hero",
+        "company overview intro"
+      ]
+    },
+    {
+      "slug": "company-profile",
+      "file": "content/assets-placeholders/selected/company-profile.png",
+      "source_page": 7,
+      "label_en": "Company profile placeholder",
+      "label_zh": "公司简介占位图",
+      "suggested_usage": [
+        "about page",
+        "company capability section"
+      ]
+    },
+    {
+      "slug": "global-markets",
+      "file": "content/assets-placeholders/selected/global-markets.png",
+      "source_page": 9,
+      "label_en": "Global market layout placeholder",
+      "label_zh": "全球市场布局占位图",
+      "suggested_usage": [
+        "market overview",
+        "regional strategy section"
+      ]
+    },
+    {
+      "slug": "market-analysis-middle-east-sea",
+      "file": "content/assets-placeholders/selected/market-analysis-middle-east-sea.png",
+      "source_page": 10,
+      "label_en": "Middle East and Southeast Asia market analysis placeholder",
+      "label_zh": "中东与东南亚市场分析占位图",
+      "suggested_usage": [
+        "market detail page",
+        "regional sales narrative"
+      ]
+    },
+    {
+      "slug": "market-analysis-africa-latam",
+      "file": "content/assets-placeholders/selected/market-analysis-africa-latam.png",
+      "source_page": 11,
+      "label_en": "Africa and Latin America market analysis placeholder",
+      "label_zh": "非洲与拉美市场分析占位图",
+      "suggested_usage": [
+        "market detail page",
+        "regional sales narrative"
+      ]
+    },
+    {
+      "slug": "case-studies-overview",
+      "file": "content/assets-placeholders/selected/case-studies-overview.png",
+      "source_page": 12,
+      "label_en": "Case studies overview placeholder",
+      "label_zh": "案例总览占位图",
+      "suggested_usage": [
+        "case study archive",
+        "trust section"
+      ]
+    },
+    {
+      "slug": "case-study-saudi-vietnam",
+      "file": "content/assets-placeholders/selected/case-study-saudi-vietnam.png",
+      "source_page": 13,
+      "label_en": "Saudi Arabia and Vietnam case placeholder",
+      "label_zh": "沙特与越南案例占位图",
+      "suggested_usage": [
+        "case detail page",
+        "project proof section"
+      ]
+    },
+    {
+      "slug": "case-study-nigeria-indonesia",
+      "file": "content/assets-placeholders/selected/case-study-nigeria-indonesia.png",
+      "source_page": 14,
+      "label_en": "Nigeria and Indonesia case placeholder",
+      "label_zh": "尼日利亚与印尼案例占位图",
+      "suggested_usage": [
+        "case detail page",
+        "project proof section"
+      ]
+    },
+    {
+      "slug": "products-hv-switchgear",
+      "file": "content/assets-placeholders/selected/products-hv-switchgear.png",
+      "source_page": 15,
+      "label_en": "High-voltage switchgear placeholder",
+      "label_zh": "高压开关柜占位图",
+      "suggested_usage": [
+        "product family page",
+        "high-voltage category"
+      ]
+    },
+    {
+      "slug": "products-lv-switchgear",
+      "file": "content/assets-placeholders/selected/products-lv-switchgear.png",
+      "source_page": 16,
+      "label_en": "Low-voltage switchgear placeholder",
+      "label_zh": "低压开关柜占位图",
+      "suggested_usage": [
+        "product family page",
+        "low-voltage category"
+      ]
+    },
+    {
+      "slug": "products-transformers",
+      "file": "content/assets-placeholders/selected/products-transformers.png",
+      "source_page": 17,
+      "label_en": "Transformer product placeholder",
+      "label_zh": "变压器产品占位图",
+      "suggested_usage": [
+        "product family page",
+        "transformer category"
+      ]
+    },
+    {
+      "slug": "products-substation-new-energy",
+      "file": "content/assets-placeholders/selected/products-substation-new-energy.png",
+      "source_page": 18,
+      "label_en": "Substation and new energy placeholder",
+      "label_zh": "箱变与新能源占位图",
+      "suggested_usage": [
+        "product family page",
+        "new energy category"
+      ]
+    },
+    {
+      "slug": "quality-assurance",
+      "file": "content/assets-placeholders/selected/quality-assurance.png",
+      "source_page": 19,
+      "label_en": "Quality assurance placeholder",
+      "label_zh": "品质保障占位图",
+      "suggested_usage": [
+        "quality page",
+        "inspection and certification section"
+      ]
+    },
+    {
+      "slug": "after-sales-service",
+      "file": "content/assets-placeholders/selected/after-sales-service.png",
+      "source_page": 20,
+      "label_en": "After-sales service placeholder",
+      "label_zh": "售后服务占位图",
+      "suggested_usage": [
+        "service page",
+        "agent support section"
+      ]
+    },
+    {
+      "slug": "contact-promises",
+      "file": "content/assets-placeholders/selected/contact-promises.png",
+      "source_page": 21,
+      "label_en": "Contact and promise placeholder",
+      "label_zh": "联系与承诺占位图",
+      "suggested_usage": [
+        "contact page",
+        "footer trust strip"
+      ]
+    }
+  ],
+  "raw_pages": [
+    {
+      "page": 1,
+      "file": "content/assets-placeholders/pdf-pages/page-01.png"
+    },
+    {
+      "page": 2,
+      "file": "content/assets-placeholders/pdf-pages/page-02.png"
+    },
+    {
+      "page": 3,
+      "file": "content/assets-placeholders/pdf-pages/page-03.png"
+    },
+    {
+      "page": 4,
+      "file": "content/assets-placeholders/pdf-pages/page-04.png"
+    },
+    {
+      "page": 5,
+      "file": "content/assets-placeholders/pdf-pages/page-05.png"
+    },
+    {
+      "page": 6,
+      "file": "content/assets-placeholders/pdf-pages/page-06.png"
+    },
+    {
+      "page": 7,
+      "file": "content/assets-placeholders/pdf-pages/page-07.png"
+    },
+    {
+      "page": 8,
+      "file": "content/assets-placeholders/pdf-pages/page-08.png"
+    },
+    {
+      "page": 9,
+      "file": "content/assets-placeholders/pdf-pages/page-09.png"
+    },
+    {
+      "page": 10,
+      "file": "content/assets-placeholders/pdf-pages/page-10.png"
+    },
+    {
+      "page": 11,
+      "file": "content/assets-placeholders/pdf-pages/page-11.png"
+    },
+    {
+      "page": 12,
+      "file": "content/assets-placeholders/pdf-pages/page-12.png"
+    },
+    {
+      "page": 13,
+      "file": "content/assets-placeholders/pdf-pages/page-13.png"
+    },
+    {
+      "page": 14,
+      "file": "content/assets-placeholders/pdf-pages/page-14.png"
+    },
+    {
+      "page": 15,
+      "file": "content/assets-placeholders/pdf-pages/page-15.png"
+    },
+    {
+      "page": 16,
+      "file": "content/assets-placeholders/pdf-pages/page-16.png"
+    },
+    {
+      "page": 17,
+      "file": "content/assets-placeholders/pdf-pages/page-17.png"
+    },
+    {
+      "page": 18,
+      "file": "content/assets-placeholders/pdf-pages/page-18.png"
+    },
+    {
+      "page": 19,
+      "file": "content/assets-placeholders/pdf-pages/page-19.png"
+    },
+    {
+      "page": 20,
+      "file": "content/assets-placeholders/pdf-pages/page-20.png"
+    },
+    {
+      "page": 21,
+      "file": "content/assets-placeholders/pdf-pages/page-21.png"
+    }
+  ]
+}

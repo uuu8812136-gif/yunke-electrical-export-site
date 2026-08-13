@@ -1,0 +1,182 @@
+.yke-contact-details,
+.yke-inquiry-shell,
+.yke-case-study-details {
+	box-sizing: border-box;
+}
+
+.yke-contact-details {
+	display: grid;
+	gap: 0.75rem;
+}
+
+.yke-contact-details__company,
+.yke-contact-details__person {
+	margin: 0;
+}
+
+.yke-contact-details__list,
+.yke-line-list {
+	margin: 0;
+	padding-left: 1.1rem;
+}
+
+.yke-contact-details__list li,
+.yke-line-list li {
+	margin: 0 0 0.5rem;
+}
+
+.yke-contact-details__list span:first-child {
+	font-weight: 600;
+	margin-right: 0.35rem;
+}
+
+.yke-contact-details__section h3 {
+	margin: 0 0 0.5rem;
+	font-size: 1rem;
+}
+
+.yke-inquiry-shell {
+	width: 100%;
+}
+
+.yke-inquiry-notice {
+	margin-bottom: 1rem;
+	padding: 0.875rem 1rem;
+	border-left: 4px solid #2563eb;
+	background: #eff6ff;
+	color: #1e3a8a;
+	font-size: 0.95rem;
+	line-height: 1.5;
+}
+
+.yke-inquiry-notice--success {
+	border-left-color: #15803d;
+	background: #f0fdf4;
+	color: #166534;
+}
+
+.yke-inquiry-notice--stored {
+	border-left-color: #a16207;
+	background: #fffbeb;
+	color: #854d0e;
+}
+
+.yke-inquiry-notice--validation,
+.yke-inquiry-notice--error {
+	border-left-color: #b91c1c;
+	background: #fef2f2;
+	color: #991b1b;
+}
+
+.yke-form-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1rem;
+	align-items: start;
+}
+
+.yke-form-grid p {
+	margin: 0;
+	min-width: 0;
+}
+
+.yke-form-grid .full-span {
+	grid-column: 1 / -1;
+}
+
+.yke-form-grid label {
+	display: block;
+	margin-bottom: 0.375rem;
+	font-weight: 600;
+	font-size: 0.95rem;
+}
+
+.yke-form-grid input,
+.yke-form-grid textarea,
+.yke-form-grid button {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	font: inherit;
+	border-radius: 6px;
+}
+
+.yke-form-grid input,
+.yke-form-grid textarea {
+	padding: 0.75rem 0.875rem;
+	border: 1px solid #cbd5e1;
+	background: #fff;
+	color: #0f172a;
+}
+
+.yke-form-grid textarea {
+	resize: vertical;
+	min-height: 8rem;
+}
+
+.yke-form-grid button {
+	padding: 0.85rem 1rem;
+	border: 0;
+	background: #f59e0b;
+	color: #111827;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.yke-form-grid button:hover,
+.yke-form-grid button:focus {
+	background: #d97706;
+	color: #fff;
+}
+
+.yke-inquiry-form__honeypot {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.yke-case-study-details {
+	margin-top: 2rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid #dbe2ea;
+}
+
+.yke-case-study-details h2 {
+	margin: 0 0 1rem;
+	font-size: 1.25rem;
+}
+
+.yke-case-study-details dl {
+	margin: 0;
+	display: grid;
+	gap: 0.875rem;
+}
+
+.yke-case-study-details__row {
+	display: grid;
+	gap: 0.25rem;
+	padding-bottom: 0.875rem;
+	border-bottom: 1px solid #eef2f7;
+}
+
+.yke-case-study-details__row:last-child {
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+.yke-case-study-details dt {
+	font-weight: 700;
+}
+
+.yke-case-study-details dd {
+	margin: 0;
+	line-height: 1.6;
+}
+
+@media (max-width: 782px) {
+	.yke-form-grid {
+		grid-template-columns: 1fr;
+	}
+}

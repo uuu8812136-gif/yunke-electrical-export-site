@@ -1,0 +1,50 @@
+name: yke-wp
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: yke-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wp
+      MYSQL_PASSWORD: wppass
+    volumes:
+      - yke-db-data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+
+  wordpress:
+    image: wordpress:latest
+    container_name: yke-wp
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8081:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wppass
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DEBUG: 1
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'http://localhost:8081');
+        define('WP_SITEURL', 'http://localhost:8081');
+    volumes:
+      # 主题挂载
+      - ./wordpress/wp-content/themes/yke-global:/var/www/html/wp-content/themes/yke-global
+      # 自定义插件挂载
+      - ./wordpress/wp-content/plugins/yke-site-core:/var/www/html/wp-content/plugins/yke-site-core
+      # 官方插件挂载
+      - ./wordpress/wp-content/plugins/contact-form-7:/var/www/html/wp-content/plugins/contact-form-7
+      - ./wordpress/wp-content/plugins/contact-form-cfdb7:/var/www/html/wp-content/plugins/contact-form-cfdb7
+      - ./wordpress/wp-content/plugins/polylang:/var/www/html/wp-content/plugins/polylang
+      - ./wordpress/wp-content/plugins/redirection:/var/www/html/wp-content/plugins/redirection
+      - ./wordpress/wp-content/plugins/wordpress-seo:/var/www/html/wp-content/plugins/wordpress-seo
+      # WP Mail SMTP 需要单独下载,这里用 uploads 卷
+      - yke-uploads:/var/www/html/wp-content/uploads
+
+volumes:
+  yke-db-data:
+  yke-uploads:

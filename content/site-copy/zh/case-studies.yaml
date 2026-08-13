@@ -1,0 +1,45 @@
+case_studies:
+  - slug: saudi-industrial-park
+    country: 沙特阿拉伯
+    title: 工业园区配电项目
+    summary: 为沙特大型工业园区EPC承包商交付中压开关柜与干式变压器，38天完成供货。
+    supply_scope:
+      - KYN28-12中压开关柜32面
+      - SCB11干式变压器8台
+    highlights:
+      - 按耐高温和防沙尘要求做定制化适配
+      - 顺利通过SGS驻厂验货
+      - 可在签署NDA后提供客户参考联系人
+  - slug: vietnam-factory-renovation
+    country: 越南
+    title: 工厂配电改造项目
+    summary: 围绕买方产线搬迁节点分批交付低压柜和母线槽，并提供越文技术支持。
+    supply_scope:
+      - GGD低压开关柜60面
+      - 密集型母线槽系统
+    highlights:
+      - 两批次柔性交付
+      - 提供越文安装手册和远程视频调试支持
+      - 项目金额约38万美元
+  - slug: nigeria-grid-upgrade
+    country: 尼日利亚
+    title: 电网升级项目
+    summary: 通过独家代理商向当地电力公司供应油浸式变压器，信用证结算顺畅且零投诉。
+    supply_scope:
+      - S13油浸式变压器20台
+      - 容量覆盖500kVA至1600kVA
+    highlights:
+      - 按时到港并完成全额结算
+      - 代理商年采购额超过200万美元
+      - 适合作为公用事业和渠道商沟通案例
+  - slug: indonesia-rooftop-solar
+    country: 印尼
+    title: 50MW屋顶光伏并网项目
+    summary: 交付光伏并网柜与升压箱变，并配合完成PLN审批所需技术文件。
+    supply_scope:
+      - 光伏并网柜12台套
+      - 升压箱变12台套
+    highlights:
+      - 技术文件按SNI标准准备
+      - 支持一次性通过PLN审批
+      - 适合新能源场景展示

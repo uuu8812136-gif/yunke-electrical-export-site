@@ -1,0 +1,39 @@
+company:
+  name: Guangzhou Yunke Electrical Equipment Co., Ltd.
+  short_name: YKE Yunke Electric
+  tagline: Reliable Power, Delivered Worldwide
+  positioning: Global power distribution solution specialist
+  location: Baiyun District, Guangzhou, China
+  overview:
+    - YKE is a foreign-trade-oriented manufacturer and supplier focused on power electrical equipment, export delivery, and project-based customization.
+    - The company serves buyers and channel partners across the Middle East, Southeast Asia, Africa, Latin America, and other growth markets.
+    - Product supply spans 0.4kV to 35kV systems with both GB and IEC alignment and export-ready documentation support.
+  strengths:
+    - Fast inquiry response within one working hour
+    - Full-chain export support from selection to customs paperwork
+    - IEC and GB compliant production with 100 percent outbound inspection
+    - Adapted designs for high heat, dust, humidity, and plateau conditions
+  buyer_snapshot:
+    voltage_range: 0.4kV to 35kV
+    certifications:
+      - CE
+      - CCC
+      - ISO 9001
+      - ISO 14001
+      - ISO 45001
+    moq: Single unit accepted; project quantities flexible
+    lead_time: 30 to 45 days standard, as fast as 25 days for stocked items
+    payment_terms:
+      - T/T
+      - L/C
+      - D/P
+    inspection:
+      - SGS
+      - BV
+      - Intertek
+    warranty: Standard 18 months
+    after_sales_response: Liability confirmed within 48 hours
+  contact_placeholder:
+    whatsapp: "+86-18620676850"
+    email: export@yunke-electric.com
+    website: www.yunke-electric.com

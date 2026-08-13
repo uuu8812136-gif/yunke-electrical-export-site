@@ -1,0 +1,72 @@
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.trae/
+
+# Local agent/browser artifacts
+.playwright-mcp/
+.runtime/
+screenshots/
+test-results/
+playwright-report/
+home-*.png
+home-*.yml
+home-*.yaml
+home-*console*
+home-*network*
+.tmp*
+*.tmp
+*.log
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+wp-config.php
+wp-config-*.php
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+__pycache__/
+*.py[cod]
+
+# WordPress runtime state
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/backup*/
+wordpress/wp-content/ai1wm-backups/
+wordpress/wp-content/debug.log
+
+# Reinstallable third-party WordPress plugins (see README version matrix)
+wordpress/wp-content/plugins/contact-form-7/
+wordpress/wp-content/plugins/contact-form-cfdb7/
+wordpress/wp-content/plugins/polylang/
+wordpress/wp-content/plugins/redirection/
+wordpress/wp-content/plugins/wordpress-seo/
+wordpress/wp-content/plugins/wp-mail-smtp/
+
+# Database and backup artifacts
+*.sql
+*.sql.gz
+*.dump
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.tar
+*.tar.gz
+*.zip

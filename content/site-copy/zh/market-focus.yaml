@@ -1,0 +1,49 @@
+markets:
+  - slug: middle-east
+    name: 中东
+    priority_countries:
+      - 沙特阿拉伯
+      - 阿联酋
+      - 科威特
+      - 卡塔尔
+    summary: 基建体量大、利润空间高，但对耐高温、防沙尘和认证适配要求更严格。
+    yke_fit:
+      - 支持50摄氏度及以上高温环境
+      - 可提供IP65+防护版本
+      - 具备贴近沙特SASO审查要求的产品经验
+  - slug: southeast-asia
+    name: 东南亚
+    priority_countries:
+      - 越南
+      - 泰国
+      - 印尼
+      - 菲律宾
+    summary: 制造业转移和新能源项目增长带来持续增量，交付节奏与本地化资料尤为关键。
+    yke_fit:
+      - 可配合买方搬迁和扩产节点做分批交付
+      - 支持多语种技术文件
+      - 适合光伏、储能及工业配电配套
+  - slug: africa
+    name: 非洲
+    priority_countries:
+      - 南非
+      - 尼日利亚
+      - 肯尼亚
+      - 埃塞俄比亚
+    summary: 电气化建设加速，市场看重高性价比、稳定交付和渠道保护。
+    yke_fit:
+      - 成本控制能力强，适合刚需型采购
+      - 量产能力成熟
+      - 适合通过代理商与区域合作伙伴拓展
+  - slug: latin-america-south-asia
+    name: 拉美与南亚
+    priority_countries:
+      - 巴西
+      - 墨西哥
+      - 巴基斯坦
+      - 孟加拉
+    summary: 新能源与并网项目机会明显，需重视本地电网验收规范与EPC协同。
+    yke_fit:
+      - 可从并网柜到升压箱变提供一站式采购
+      - 可协助准备并网与技术文件
+      - 适合新能源项目和总包协作场景

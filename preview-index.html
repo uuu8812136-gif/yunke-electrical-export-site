@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yunke Electrical Preview Package</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f3f5f7;
+      --surface: #ffffff;
+      --surface-alt: #e8edf1;
+      --text: #12202c;
+      --muted: #4a5e70;
+      --line: #d3dbe2;
+      --accent: #0a6b8f;
+      --shadow: 0 12px 30px rgba(18, 32, 44, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--accent); }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .hero, .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    .hero {
+      padding: 28px;
+      display: grid;
+      gap: 20px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      line-height: 1.15;
+      font-weight: 700;
+    }
+    h1 { font-size: 34px; }
+    h2 { font-size: 22px; margin-bottom: 16px; }
+    h3 { font-size: 16px; margin-bottom: 8px; }
+    p { margin: 0; color: var(--muted); }
+    .hero-grid, .grid-2, .asset-grid, .market-grid, .case-grid {
+      display: grid;
+      gap: 16px;
+    }
+    .hero-grid { grid-template-columns: 1.3fr 0.7fr; align-items: start; }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .asset-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .market-grid, .case-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .stat-list, .mini-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .stat-item, .mini-card, .asset-card {
+      background: var(--surface-alt);
+      border: 1px solid var(--line);
+      padding: 14px;
+    }
+    .stat-item strong, .mini-card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+    .section {
+      margin-top: 22px;
+      display: grid;
+      gap: 16px;
+    }
+    .panel { padding: 22px; }
+    .asset-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid var(--line);
+      margin-bottom: 10px;
+      background: #fff;
+    }
+    .label {
+      display: inline-block;
+      padding: 3px 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+      background: #eef3f7;
+      padding: 1px 5px;
+      border-radius: 3px;
+    }
+    @media (max-width: 900px) {
+      .hero-grid, .grid-2, .asset-grid, .market-grid, .case-grid {
+        grid-template-columns: 1fr;
+      }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Shared Workspace Preview</div>
+          <h1>Yunke Electrical handoff package</h1>
+          <p>This static preview is a lightweight index for the current docs, content sources, and brochure-derived placeholder assets. It does not execute the WordPress theme or plugin.</p>
+        </div>
+        <div class="stat-list">
+          <div class="stat-item">
+            <strong>WordPress package</strong>
+            <span><code>wordpress/wp-content/themes/yke-global</code> and <code>wordpress/wp-content/plugins/yke-site-core</code></span>
+          </div>
+          <div class="stat-item">
+            <strong>Structured copy</strong>
+            <span><code>content/site-copy/en</code> and <code>content/site-copy/zh</code></span>
+          </div>
+          <div class="stat-item">
+            <strong>Placeholder visuals</strong>
+            <span><code>content/assets-placeholders/selected</code></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="panel">
+        <h2>Setup snapshot</h2>
+        <div class="grid-2">
+          <div class="mini-card">
+            <strong>Refresh placeholder pages</strong>
+            <p><code>py .tools/scripts/render_pdf_pages.py</code></p>
+          </div>
+          <div class="mini-card">
+            <strong>Rebuild named asset set</strong>
+            <p><code>py .tools/scripts/build_placeholder_assets.py</code></p>
+          </div>
+          <div class="mini-card">
+            <strong>Read the notes</strong>
+            <p><a href="./docs/preview-and-setup.md">docs/preview-and-setup.md</a></p>
+          </div>
+          <div class="mini-card">
+            <strong>Machine-readable asset map</strong>
+            <p><a href="./content/assets-placeholders/manifest.json">content/assets-placeholders/manifest.json</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>English content structure</h2>
+        <div class="grid-2">
+          <div class="mini-card">
+            <strong>Company profile</strong>
+            <p>Tagline, buyer snapshot, strengths, and contact placeholder fields prepared for import or manual entry.</p>
+          </div>
+          <div class="mini-card">
+            <strong>Market focus</strong>
+            <p>Regional summaries for Middle East, Southeast Asia, Africa, and Latin America / South Asia.</p>
+          </div>
+          <div class="mini-card">
+            <strong>Case studies</strong>
+            <p>Saudi Arabia, Vietnam, Nigeria, and Indonesia summaries mapped from the brochure.</p>
+          </div>
+          <div class="mini-card">
+            <strong>Path</strong>
+            <p><code>content/site-copy/en/*.yaml</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>中文内容结构</h2>
+        <div class="grid-2">
+          <div class="mini-card">
+            <strong>公司资料</strong>
+            <p>已整理公司定位、买家速览、核心优势和联系占位信息。</p>
+          </div>
+          <div class="mini-card">
+            <strong>市场方向</strong>
+            <p>已整理中东、东南亚、非洲、拉美与南亚的区域摘要。</p>
+          </div>
+          <div class="mini-card">
+            <strong>案例摘要</strong>
+            <p>已整理沙特、越南、尼日利亚、印尼四个案例的简版内容。</p>
+          </div>
+          <div class="mini-card">
+            <strong>路径</strong>
+            <p><code>content/site-copy/zh/*.yaml</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Named placeholder assets</h2>
+        <div class="asset-grid">
+          <article class="asset-card">
+            <span class="label">Hero</span>
+            <img src="./content/assets-placeholders/selected/hero-cover.png" alt="Hero cover placeholder">
+            <h3>hero-cover.png</h3>
+            <p>Source page 1. Suitable for the top-of-page brochure placeholder.</p>
+          </article>
+          <article class="asset-card">
+            <span class="label">Markets</span>
+            <img src="./content/assets-placeholders/selected/global-markets.png" alt="Global markets placeholder">
+            <h3>global-markets.png</h3>
+            <p>Source page 9. Use for market overview and region strategy sections.</p>
+          </article>
+          <article class="asset-card">
+            <span class="label">Cases</span>
+            <img src="./content/assets-placeholders/selected/case-studies-overview.png" alt="Case study overview placeholder">
+            <h3>case-studies-overview.png</h3>
+            <p>Source page 12. Good for trust, delivery proof, or archive previews.</p>
+          </article>
+          <article class="asset-card">
+            <span class="label">Products</span>
+            <img src="./content/assets-placeholders/selected/products-hv-switchgear.png" alt="High voltage product placeholder">
+            <h3>products-hv-switchgear.png</h3>
+            <p>Source page 15. Use for high-voltage category placeholders.</p>
+          </article>
+          <article class="asset-card">
+            <span class="label">Quality</span>
+            <img src="./content/assets-placeholders/selected/quality-assurance.png" alt="Quality assurance placeholder">
+            <h3>quality-assurance.png</h3>
+            <p>Source page 19. Fits inspection, standards, and QA sections.</p>
+          </article>
+          <article class="asset-card">
+            <span class="label">Service</span>
+            <img src="./content/assets-placeholders/selected/after-sales-service.png" alt="After sales placeholder">
+            <h3>after-sales-service.png</h3>
+            <p>Source page 20. Useful for service process or agent support content.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

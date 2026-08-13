@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Industrial Slate",
+  "slug": "industrial-slate",
+  "styles": {
+    "color": {
+      "background": "#f8fafc",
+      "text": "#0f1720"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#d79222",
+          "text": "#0f1720"
+        }
+      }
+    }
+  }
+}

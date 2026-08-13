@@ -1,0 +1,45 @@
+case_studies:
+  - slug: saudi-industrial-park
+    country: Saudi Arabia
+    title: Industrial Park Power Distribution Project
+    summary: Delivered a medium-voltage and dry-type transformer package for a large industrial park EPC contractor within 38 days.
+    supply_scope:
+      - 32 sets of KYN28-12 medium-voltage switchgear
+      - 8 units of SCB11 dry-type transformers
+    highlights:
+      - Customized for high heat and sand protection under SASO-oriented requirements
+      - Passed full SGS factory inspection
+      - Reference contact available after NDA
+  - slug: vietnam-factory-renovation
+    country: Vietnam
+    title: Factory Power Distribution Renovation
+    summary: Supported a manufacturing group with staged low-voltage cabinet and bus duct delivery tied to relocation milestones.
+    supply_scope:
+      - 60 sets of GGD low-voltage switchgear
+      - Dense bus duct system
+    highlights:
+      - Two-batch flexible shipment plan
+      - Vietnamese installation manuals and remote commissioning support
+      - Approximate project value of USD 380,000
+  - slug: nigeria-grid-upgrade
+    country: Nigeria
+    title: Power Grid Upgrade Project
+    summary: Supplied oil-immersed transformers through an exclusive agent for a local utility with smooth L/C settlement and zero complaints.
+    supply_scope:
+      - 20 units of S13 oil-immersed transformers
+      - Capacity range from 500kVA to 1600kVA
+    highlights:
+      - On-time arrival and full payment completion
+      - Agent annual purchase volume above USD 2 million
+      - Suitable reference for utility and distributor discussions
+  - slug: indonesia-rooftop-solar
+    country: Indonesia
+    title: 50MW Rooftop Solar Grid-Connection Project
+    summary: Delivered photovoltaic grid-connected cabinets and step-up box transformers with documentation support for PLN approval.
+    supply_scope:
+      - 12 sets of photovoltaic grid-connected cabinets
+      - 12 sets of step-up box transformers
+    highlights:
+      - Documentation package aligned with SNI standards
+      - One-pass PLN approval support
+      - Useful proof point for renewable-energy buyers

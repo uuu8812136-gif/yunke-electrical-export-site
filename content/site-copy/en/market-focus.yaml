@@ -1,0 +1,49 @@
+markets:
+  - slug: middle-east
+    name: Middle East
+    priority_countries:
+      - Saudi Arabia
+      - United Arab Emirates
+      - Kuwait
+      - Qatar
+    summary: High-threshold, high-return market driven by large-scale infrastructure and extreme-environment requirements.
+    yke_fit:
+      - High-temperature resistance at 50C and above
+      - IP65+ dust protection options
+      - Product experience aligned with Saudi SASO review needs
+  - slug: southeast-asia
+    name: Southeast Asia
+    priority_countries:
+      - Vietnam
+      - Thailand
+      - Indonesia
+      - Philippines
+    summary: Fast-growth market supported by manufacturing relocation, RCEP tailwinds, and rising energy projects.
+    yke_fit:
+      - Flexible delivery for factory relocation and expansion schedules
+      - Localized technical files and multilingual support
+      - Strong fit for photovoltaic and storage projects
+  - slug: africa
+    name: Africa
+    priority_countries:
+      - South Africa
+      - Nigeria
+      - Kenya
+      - Ethiopia
+    summary: Cost-sensitive electrification market with space for Chinese suppliers to build early channel trust.
+    yke_fit:
+      - Competitive cost control for utility and industrial buyers
+      - Mature mass-production capability
+      - Agent-friendly regional growth strategy
+  - slug: latin-america-south-asia
+    name: Latin America and South Asia
+    priority_countries:
+      - Brazil
+      - Mexico
+      - Pakistan
+      - Bangladesh
+    summary: New-energy-led market where grid compliance and EPC collaboration decide project access.
+    yke_fit:
+      - One-stop procurement from grid-connected cabinets to step-up substations
+      - Technical support for local grid acceptance packages
+      - Suitable for EPC-led solar and industrial power programs
